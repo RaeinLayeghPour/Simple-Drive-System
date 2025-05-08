@@ -1,0 +1,32 @@
+1iorNvSQbYdW2QENK/fcEpmtaPL3fH6JVTYqOF6c7BEuuHut1kS1thsqgTAfHsEM2Tf37UUJYxe06BWoQ1OATw==
+{
+  "compilation_timestamp": "2025-05-07 18:54:54",
+  "sw_version": "2024.4 SP1",
+  "devices": [
+    {
+      "device_type": "HIL604",
+      "hw_id": "4693439588491abb46074c75145890630ffb374a8b4a61e4553df114293c85a3",
+      "serial_no": "00604-00-00309",
+      "license_expiry": "2121-01-31",
+      "maintenance_expiry": null,
+      "access_type": "Full",
+      "paralleling": "Master",
+      "not_supported": null,
+      "toolboxes": []
+    },
+    {
+      "device_type": "HIL604",
+      "hw_id": "cb41f29ce7f3a7a1da8aab2cb56b3a57ae148cc5b18c73a36edf933f4721561c",
+      "serial_no": "00604-00-00310",
+      "license_expiry": "2121-01-31",
+      "maintenance_expiry": null,
+      "access_type": "Full",
+      "paralleling": "Master",
+      "not_supported": null,
+      "toolboxes": []
+    }
+  ]
+}
+-----BEGIN SIGNATURE-----
+OiWOUH53HLY90Ay0/b5pV1W5f+q9qvLGmXzS371S99jhLF5QcSoiEj0sQkV4w9xzAskr5pwiR8QTm5VDM0IJZFVUNHArJMr7mkaB0iYVgAWFTstPnnsMoBjtBuMO4w3pPZ0l72FxbAOL/JPhin4ehq1BCSrHfjW9bX5sT6t8yrrHXKgxBvNcN2mnvGVEc/NrFC19wk9KYTIVEMR30M6PwFHOJ/ZvwWJmUMqZYEHtx4xC6Zc5ZiAD0wkb327nYjxK0mewBgjhCkvgkoy2eIM8LLUIP3+ESWeeJzGYEV92QeqknL3DAMgjvsUZ1vJhcPhMyElVVu8qRAoOcCaQxAUyEA==
+-----END SIGNATURE-----
