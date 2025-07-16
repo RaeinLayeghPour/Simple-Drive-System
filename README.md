@@ -45,5 +45,5 @@ A compact, microcontroller-based drive system designed to control a DC motor wit
 
 Feel free to reach out for questions, suggestions, or collaboration:
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/raeinlp)  
-- ✉️ Email: raeen.layegh2017@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/raeinlp)  
+- Email: raeen.layegh2017@gmail.com
