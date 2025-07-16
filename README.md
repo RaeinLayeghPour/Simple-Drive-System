@@ -1,6 +1,6 @@
 # Simple Drive System
 
-A compact, microcontroller-based drive system designed to control a DC motor with precise speed and direction management—perfect for robotics, automation, and educational electronics setups.
+A compact, microcontroller-based drive system designed to control a DC motor with precise speed and direction management, perfect for robotics, automation, and educational electronics setups.
 
 ---
 
