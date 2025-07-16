@@ -1,1 +1,49 @@
-In this project, I simulated a complete power conversion and motor control system using Typhoon HIL's real-time Hardware-in-the-Loop environment. The system begins with a three-phase AC grid input, which is passed through a three-phase diode rectifier to generate a DC bus voltage. This DC power is stabilized using a DC-link capacitor and then fed into a three-phase inverter that uses PWM switching to drive an induction motor. The model integrates multiple real-time measurement blocks to monitor RMS voltages and currents throughout the system, including Vab_rms, Vbc_rms, Idc, and the motor phase currents (Ia_rms, Ib_rms, Ic_rms). All switching and electrical domain computations are executed on the Typhoon FPGA solver, ensuring fast, deterministic behaviour. A key feature of this project is the custom control logic subsystem, which computes motor torque dynamically based on real-time motor speed and an applied load reference. This closed-loop feedback system, implemented on the User CPU, uses speed signals (in RPM), gain scaling, and a delay block to simulate realistic mechanical loading effects. Unlike the first project, which uses direct torque input, this model introduces load-based torque response, making it more suitable for real-world drive testing. The simulation demonstrates the integration of power electronics, AC-to-DC rectification, PWM inverter control, and dynamic mechanical feedback, which reflects the architecture used in electric vehicle drivetrains and industrial motor applications. This project highlights my ability to model and control multi-domain systems using FPGA-level real-time hardware and design structured control logic with real-time monitoring and performance analysis.
+# Simple Drive System
+
+A compact, microcontroller-based drive system designed to control a DC motor with precise speed and direction management—perfect for robotics, automation, and educational electronics setups.
+
+---
+
+## Key Features
+
+- **Bidirectional control** of a DC motor (forward/reverse)  
+- **Speed adjustment** using PWM  
+- **Direction switching** via H-bridge (e.g., L298N)  
+- **Optional feedback** through rotary encoder for closed-loop control  
+- **Simple serial interface** for real-time monitoring and adjustments
+
+---
+
+## Tech Stack & Hardware
+
+- **Microcontroller:** Arduino Uno / ATmega328P  
+- **Driver module:** L298N (H-bridge)  
+- **Control logic:** Arduino C/C++ with PWM  
+- **Feedback (optional):** Rotary encoder or hall-effect sensor  
+- **Interface:** Serial over USB, LED indicators for status
+
+---
+
+## How It Works
+
+1. The microcontroller uses PWM on its output pin.
+2. The H-bridge (e.g., L298N) receives PWM and direction signals.
+3. Motor speed and direction are controlled based on input commands via serial.
+4. Optional encoder feedback enables PID-style speed regulation.
+
+---
+
+## Applications
+
+- Educational robotics platforms  
+- DIY motorized systems (e.g., RC cars, conveyor belts)  
+- Speed-controlled test rigs for mechanical assemblies
+
+---
+
+## Contact
+
+Feel free to reach out for questions, suggestions, or collaboration:
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/raeinlp)  
+- ✉️ Email: raeen.layegh2017@gmail.com
